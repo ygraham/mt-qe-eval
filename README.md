@@ -51,7 +51,7 @@ How to run:
 Example data is included in the files:
 
     ./task-1.2.csv # System predictions and human scores (HTER in example data) for sentences;
-    ./metrics.12   # Names of metrics you wish to carry out pairewise tests for.
+    ./metrics.12   # Names of metrics you wish to carry out pairwise tests for.
 
 Run pairwise significance tests as follows:
 
