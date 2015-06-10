@@ -57,6 +57,5 @@ Run pairwise significance tests as follows:
 
     R --no-save < pearson-sig.R
 
-This creates a file containing a matrix of p-values for system-pairwise tests, for each pair of
-systems Williams test is carried out to test significance of the increase in correlation with
-human scores of metric A over that of metric B is significant.
+This creates a file containing a matrix of p-values pairwise tests for all QE systems. For example, for each pair of
+QE systems A and B, Williams test is carried out to test significance of the increase in correlation with human scores of QE system A over that of QE system B.
