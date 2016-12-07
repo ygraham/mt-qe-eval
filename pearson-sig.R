@@ -54,7 +54,7 @@ for( met1 in unique(unlist(metrics))){
 
 
             if( m1.h > m2.h ){
-                p <- r.test( n = length( a$HUMAN), 
+                p <- r.test( n = length( m1$HUMAN), 
 		        r12 = m1.h, 
 		        r13 = m2.h, 
 		        r23 = m1.m2, 
