@@ -53,7 +53,7 @@ for( met1 in unique(unlist(metrics))){
             m1.m2 <- cor(m1$SCORE,m2$SCORE)
 
 
-            if( m1.h >= m2.h ){
+            if( m1.h > m2.h ){
                 p <- r.test( n = length( m1$HUMAN), 
 		        r12 = m1.h, 
 		        r13 = m2.h, 
